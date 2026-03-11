@@ -24,8 +24,18 @@
   </script>
 </head>
 <body>
-  <header class="site-header">
-    <div class="brand"><a href="/" style="color:inherit; text-decoration:none;">VullnetGen</a></div>
+<header class="site-header">
+  <div class="brand">
+    <a href="/" class="brand-link" aria-label="VullnetGen Homepage">
+      <img src="{% static 'img/logo.png' %}" alt="VullnetGen Logo" class="logo">
+      <span class="brand-name">VullnetGen</span>
+    </a>
+  </div>
+</header>
+
+<!-- Link to your CSS file -->
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+</div>
     <nav class="nav-links" id="nav-menu">
       <div class="nav-group">
         <a href="/dashboard/">Paneli</a>
