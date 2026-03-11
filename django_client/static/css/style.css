@@ -2811,4 +2811,51 @@ tbody tr:last-child td {
   .section-label-dot {
     animation: none;
   }
+  /* Header styling */
+.site-header {
+  padding: 10px 20px;
+  background-color: #fff; /* Change as needed */
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Brand link styling */
+.brand-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333; /* Site name color */
+  transition: transform 0.2s;
+}
+
+.brand-link:hover {
+  transform: scale(1.05);
+}
+
+/* Logo image styling */
+.logo {
+  max-width: 150px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Site name styling */
+.brand-name {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .logo {
+    max-width: 100px;
+  }
+  .brand-name {
+    font-size: 1.2rem;
+  }
+}
 }
